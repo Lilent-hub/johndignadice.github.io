@@ -225,8 +225,8 @@ header .container {
    ================================ */
 
 .hero {
-  padding: var(--spacing-xl) var(--spacing-lg);
-  min-height: 500px;
+  padding: calc(var(--spacing-lg) + 0.5rem) var(--spacing-lg);
+  min-height: 420px;
   background: linear-gradient(
     180deg,
     rgba(0, 217, 255, 0.05) 0%,
@@ -468,8 +468,8 @@ section h2::after {
   background: rgba(30, 58, 95, 0.5);
   border: 1px solid rgba(0, 217, 255, 0.2);
   border-radius: var(--radius-lg);
-  padding: var(--spacing-xl);
-  margin: var(--spacing-xl) auto;
+  padding: var(--spacing-lg);
+  margin: var(--spacing-lg) auto;
   max-width: 800px;
   text-align: center;
 }
